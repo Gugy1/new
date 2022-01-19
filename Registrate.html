@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registrate!!</title>
+<link rel="shortcut icon" type="text/css" href="Gugy.jpg">
+<style>
+*{margin:  0;
+padding: 10;
+box-sizing: border-box;}
+
+
+.registro{
+	width: 400px;
+
+	background: #fa8072;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border border-radius: 4px;
+	font-family: calibri;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}	
+.registro h4{ font-size: 22px;
+margin-bottom: 20px; }
+
+
+.controls{ width: 100%;
+background: #fa8072 ;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border:1px solid black;
+font-family: calibri;
+font-size: 18px; 
+color: white;}
+
+.registro p{ height: 40px;
+text-align: center;
+font-size: 18px;
+line-height: 40px; }
+
+.registro a{ color: white;
+text-decoration: none; }
+ 
+
+ .registro a:hover{ color: white;
+text-decoration: underline; }
+
+
+.registro .boton{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+.registro .segundo{
+	
+	background: red;
+	width: 100%;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	
+}
+
+</style>
+</head>
+<body>
+	<body background="Fondo.jpg">
+		<img src="Gugy.jpg" width="100" height="100">
+
+
+<form class="registro">
+
+	<h4>Registrate!!</h4>
+	<input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre" required>
+	<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido" required>
+	<input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo"required>
+	<input class="controls" type="password" name="correo" id="correo" placeholder="ingrese su contraseña"required>
+	<p>Estoy de acuerdo con <a href="#"> terminos y condiciones</a></p>
+	<input class="boton" type="submit" value="Registrar">
+	 <input class="segundo" type="reset" name="borrar" id="borrar" placeholder="Borrar">
+	<p><a href="#">¿ya tengo cuenta?</a></p>
+</form>
+</body>
+</html>
